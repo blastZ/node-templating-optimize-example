@@ -1,0 +1,22 @@
+{
+  "name": "node-templating-optimize-example",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch ./dist ./dist/app.js"
+  },
+  "author": "blastz",
+  "license": "MIT",
+  "dependencies": {
+    "@blastz/nico": "^0.18.7",
+    "koa-ejs": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/clean-css": "^4.2.3",
+    "@types/koa-ejs": "^4.2.2",
+    "clean-css": "^4.2.3",
+    "nodemon": "^2.0.7",
+    "purgecss": "^4.0.0"
+  }
+}
