@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch ./dist ./dist/app.js"
+    "dev": "nodemon --watch ./dist ./dist/app.js",
+    "build": "webpack --config ./build/webpack.config.js"
   },
   "author": "blastz",
   "license": "MIT",
@@ -17,6 +18,8 @@
     "@types/koa-ejs": "^4.2.2",
     "clean-css": "^4.2.3",
     "nodemon": "^2.0.7",
-    "purgecss": "^4.0.0"
+    "purgecss": "^4.0.0",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
   }
 }
